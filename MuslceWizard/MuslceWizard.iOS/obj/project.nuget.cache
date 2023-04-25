@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wNP8k7qm/8adx0Ff3fcTu0rJ2QVu7mqZebko0D4nsN0owVDsFwDmv0yJ4XRpEkXSgESRVM6Sjito888SDP+s5w==",
+  "success": true,
+  "projectFilePath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.iOS\\MuslceWizard.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Study Room\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Study Room\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Study Room\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

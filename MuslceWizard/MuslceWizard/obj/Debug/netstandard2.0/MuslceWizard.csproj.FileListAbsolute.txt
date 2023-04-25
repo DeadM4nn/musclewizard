@@ -1,0 +1,16 @@
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.deps.json
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.dll
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.pdb
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.csproj.AssemblyReference.cache
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.AssemblyInfoInputs.cache
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.AssemblyInfo.cs
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.csproj.CoreCompileInputs.cache
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.dll
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\refint\MuslceWizard.dll
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.pdb
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\ref\MuslceWizard.dll
+C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuscleBack.xaml.g.cs
