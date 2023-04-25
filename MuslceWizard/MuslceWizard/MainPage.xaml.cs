@@ -14,7 +14,7 @@ namespace MuslceWizard
         {
             InitializeComponent();
         }
-        async void NavigateTo(object sender, EventArgs e)
+        private void NavigateTo(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MuscleBack());
         }

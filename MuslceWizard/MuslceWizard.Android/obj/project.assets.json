@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
+      "projectUniqueName": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
       "projectName": "MuslceWizard.Android",
-      "projectPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
+      "projectPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
       "packagesPath": "C:\\Users\\Study Room\\.nuget\\packages\\",
-      "outputPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\obj\\",
+      "outputPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj": {
-              "projectPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj"
+            "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj": {
+              "projectPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj"
             }
           }
         }
@@ -3452,14 +3452,6 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

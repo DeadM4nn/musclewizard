@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wNP8k7qm/8adx0Ff3fcTu0rJ2QVu7mqZebko0D4nsN0owVDsFwDmv0yJ4XRpEkXSgESRVM6Sjito888SDP+s5w==",
+  "dgSpecHash": "9l2YGgBqakg+DAU+VQoTBCp5cxzi2x7szVBXbEHKu/P0dQXLsC3rjY3mVVR6tOLO4rpzq1tsb7/7RwB1Qu+8Cw==",
   "success": true,
-  "projectFilePath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.iOS\\MuslceWizard.iOS.csproj",
+  "projectFilePath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.iOS\\MuslceWizard.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Study Room\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Study Room\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

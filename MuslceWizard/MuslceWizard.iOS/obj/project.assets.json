@@ -1068,11 +1068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.iOS\\MuslceWizard.iOS.csproj",
+      "projectUniqueName": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.iOS\\MuslceWizard.iOS.csproj",
       "projectName": "MuslceWizard.iOS",
-      "projectPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.iOS\\MuslceWizard.iOS.csproj",
+      "projectPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.iOS\\MuslceWizard.iOS.csproj",
       "packagesPath": "C:\\Users\\Study Room\\.nuget\\packages\\",
-      "outputPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.iOS\\obj\\",
+      "outputPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1093,8 +1093,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj": {
-              "projectPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj"
+            "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj": {
+              "projectPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj"
             }
           }
         }

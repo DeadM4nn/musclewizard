@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h1ev584HzrQoX1iXoTdfu/EnOHCGTt2prYF2xcleLxmKYX/8+w0Z+jq+JlYkgrilSFENq7GAAgKfV9XPHLDlTg==",
+  "dgSpecHash": "fpXkdjFfIyU681jXFbDKoMhQVJqkehpKoiZeRRMXqKEPhcWb2vtXWZFXjrGi05dNxBG8fy7c1G4c5a9+sXQ6tg==",
   "success": true,
-  "projectFilePath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
+  "projectFilePath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Study Room\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Study Room\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

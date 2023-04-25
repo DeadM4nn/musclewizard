@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638167413415957097
+_nugetassetstimestamp=638180730749553044
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\mobile app project\muslcewizard\muslcewizard\muslcewizard.android\muslcewizard.android.csproj
+projectfullpath=c:\mobileappproject\musclewizardgithub\musclewizard\muslcewizard\muslcewizard.android\muslcewizard.android.csproj

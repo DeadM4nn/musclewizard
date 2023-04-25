@@ -16,5 +16,13 @@ namespace MuslceWizard
 		{
 			InitializeComponent ();
 		}
-	}
+        private void NavigateTo(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
+
+		private void goBack(object sender, EventArgs e) {
+            Navigation.PopAsync(); //Pop the latest async
+        }
+    }
 }

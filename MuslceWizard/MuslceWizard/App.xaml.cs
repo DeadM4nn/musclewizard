@@ -10,7 +10,8 @@ namespace MuslceWizard
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+            //MuscleBackPage = new NavigationPage(new MuscleBack());
         }
 
         protected override void OnStart()

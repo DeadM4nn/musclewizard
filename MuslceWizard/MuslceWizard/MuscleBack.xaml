@@ -1,12 +1,71 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MuslceWizard.MuscleBack">
+             x:Class="MuslceWizard.MuscleBack"
+            BackgroundImageSource="Back.png">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Margin="24, 26, 0, 0"
+        Text="Trepezius"
+        HeightRequest="41"
+        WidthRequest="105"
+        HorizontalOptions="Start"
+        BackgroundColor="#E74833"
+        TextColor="#FBFBFB"
+                >
+            </Button>
+
+            <Button Margin="10, 22, 0, 0"
+        Text="Triceps"
+        HeightRequest="41"
+        WidthRequest="105"
+        HorizontalOptions="Start"
+        BackgroundColor="#E74833"
+        TextColor="#FBFBFB"
+                >
+            </Button>
+
+            <Button Margin="276, 37, 0, 0"
+        Text="Glutes"
+        HeightRequest="41"
+        WidthRequest="105"
+        HorizontalOptions="Start"
+        BackgroundColor="#E74833"
+        TextColor="#FBFBFB"
+                >
+            </Button>
+
+            <Button Margin="276, 38, 0, 90"
+        Text="Hamstrings"
+        HeightRequest="41"
+        WidthRequest="105"
+        HorizontalOptions="Start"
+        BackgroundColor="#E74833"
+        TextColor="#FBFBFB"
+                >
+            </Button>
+
+            <Button
+        Text="Front"
+        Clicked="goBack"
+        HeightRequest="91"
+        Margin="30, 0"
+                >
+            </Button>
+
+            <Button
+        Text="User Info"
+        HeightRequest="91"
+        Margin="30, 0"
+                >
+            </Button>
+
+            <Button
+        Text="Calorie and Protein Intake"
+        HeightRequest="91"
+        Margin="30, 0"
+                >
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

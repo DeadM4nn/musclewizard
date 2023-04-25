@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dSss5dnSz70rsGsL6eEal0Abp8USMiY8AG8R1rTqhVpcpgRHgqaqTVxgqB/89yYrhv9B/l30dtEGBtgsODsSBw==",
+  "dgSpecHash": "0ym0EcO5TvYvGERowhEykPiE6D5Yzg+c/flhD1zEaa8ZXPpdDsccR+x4x1Jsu+cMKHmzW3IpIXHdNUArQjjAhg==",
   "success": true,
-  "projectFilePath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj",
+  "projectFilePath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Study Room\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Study Room\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

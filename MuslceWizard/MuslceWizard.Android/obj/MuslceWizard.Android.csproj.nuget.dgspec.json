@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj": {}
+    "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj": {}
   },
   "projects": {
-    "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj": {
+    "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
+        "projectUniqueName": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
         "projectName": "MuslceWizard.Android",
-        "projectPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
+        "projectPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\MuslceWizard.Android.csproj",
         "packagesPath": "C:\\Users\\Study Room\\.nuget\\packages\\",
-        "outputPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard.Android\\obj\\",
+        "outputPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj": {
-                "projectPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj"
+              "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj": {
+                "projectPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj": {
+    "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj",
+        "projectUniqueName": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj",
         "projectName": "MuslceWizard",
-        "projectPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj",
+        "projectPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\MuslceWizard.csproj",
         "packagesPath": "C:\\Users\\Study Room\\.nuget\\packages\\",
-        "outputPath": "C:\\Mobile App Project\\MuslceWizard\\MuslceWizard\\MuslceWizard\\obj\\",
+        "outputPath": "C:\\MobileAppProject\\MuscleWizardGithub\\musclewizard\\MuslceWizard\\MuslceWizard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
