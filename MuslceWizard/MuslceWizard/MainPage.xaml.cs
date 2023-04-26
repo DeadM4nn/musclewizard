@@ -14,9 +14,12 @@ namespace MuslceWizard
         {
             InitializeComponent();
         }
-        private void NavigateTo(object sender, EventArgs e)
+        private void goBackside(object sender, EventArgs e)
         {
             Navigation.PushAsync(new MuscleBack());
+        }
+        private void goUserProfile(object sender, EventArgs e) {
+            Navigation.PushAsync(new UserProfile());
         }
     }
 }

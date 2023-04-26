@@ -47,7 +47,7 @@
 
         <Button
         Text="Behind"
-        Clicked="NavigateTo"
+        Clicked="goBackside"
         HeightRequest="91"
         Margin="30, 0"
                 >
@@ -56,6 +56,7 @@
         <Button
         Text="User Info"
         HeightRequest="91"
+        Clicked="goUserProfile"
         Margin="30, 0"
                 >
         </Button>        

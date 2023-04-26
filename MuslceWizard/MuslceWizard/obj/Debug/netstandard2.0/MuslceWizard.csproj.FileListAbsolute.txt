@@ -30,3 +30,4 @@ C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\bi
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.pdb
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\XamlC.stamp
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\ref\MuslceWizard.dll
+C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\UserProfile.xaml.g.cs

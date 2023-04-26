@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MuslceWizard.UserProfile"
+    BackgroundColor="#27385B">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="Height" 
+                Margin="10, 20, 10 ,0"
+                TextColor="#FBFBFB" />
+            <Entry 
+                TextColor="#FBFBFB" 
+                PlaceholderColor="#FBFBFB" 
+                Placeholder="height in centimeters" 
+                Margin="30, 0"
+                />
+                
+
+            <Label 
+                Text="Weight" 
+                Margin="10, 20, 10 ,0"
+                TextColor="#FBFBFB" />
+            <Entry 
+                TextColor="#FBFBFB" 
+                PlaceholderColor="#FBFBFB" 
+                Placeholder="weight in kg" 
+                Margin="30, 0"
+                />
+
+            <Label 
+                Text="Gender" 
+                Margin="10, 20, 10 ,0"
+                TextColor="#FBFBFB" />
+            <Picker 
+                TitleColor="#FBFBFB" 
+                TextColor="#FBFBFB" 
+                Title="Select a gender"
+                Margin="30, 0">
+                <Picker.Items>
+                    <x:String>Male</x:String>
+                    <x:String>Female</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label 
+                Text="Exercise Level" 
+                Margin="10, 20, 10 ,0"
+                TextColor="#FBFBFB" />
+            <Picker 
+                TitleColor="#FBFBFB" 
+                TextColor="#FBFBFB" 
+                Title="Exercise Level"
+                Margin="30, 0">
+                <Picker.Items>
+                    <x:String>Sedentary (little or no exercise)</x:String>
+                    <x:String>Lightly active (exercise 1-3 days per week)</x:String>
+                    <x:String>Moderately active (exercise 3-5 days per week)</x:String>
+                    <x:String>Very active (exercise 6-7 days per week)</x:String>
+                    <x:String>Extra active (very intense exercise, physical job, training 2x per day)</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Button 
+                Text="Save"         
+                BackgroundColor="#E74833"
+                TextColor="#FBFBFB" 
+                Margin="30, 50"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
