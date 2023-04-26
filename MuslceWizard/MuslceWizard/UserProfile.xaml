@@ -3,7 +3,9 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="MuslceWizard.UserProfile"
-    BackgroundColor="#27385B">
+    BackgroundColor="#27385B"
+    Title="User Profile"
+    >
 
     <ContentPage.Content>
         <StackLayout>
@@ -86,12 +88,16 @@
                 Text="Save"         
                 BackgroundColor="#E74833"
                 TextColor="#FBFBFB" 
-                Margin="30, 50"
+                Margin="30, 50, 30, 0"
                 x:Name="SaveButton"
                 Clicked="buttonProcess"
                 />
+            <Label 
+                TextColor="Red"
+                x:Name="AlertBox"
+                HorizontalOptions="Center"
+                />
 
-  
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

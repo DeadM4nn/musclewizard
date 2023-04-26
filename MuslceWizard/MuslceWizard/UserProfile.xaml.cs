@@ -24,24 +24,35 @@ namespace MuslceWizard
 
 		public void buttonProcess(object sender, EventArgs e)
 		{
-			string gender = Gender.SelectedItem.ToString();
-			string exercise = Exercise.SelectedItem.ToString();
-			int height = int.Parse(Height.Text);
-			int weight = int.Parse(Weight.Text);
-			int age = int.Parse(Age.Text);
-			double bmr = 0.00;
-
-
-			if (gender == "MALE")
-			{
-				bmr = 88.4 + (13.4 * weight) +(4.8 * height) -(5.7 * age);
+			if (string.IsNullOrEmpty(Height.Text) || string.IsNullOrEmpty(Weight.Text) || string.IsNullOrEmpty(Age.Text)) {
+                AlertBox.Text = "Age/Height/Weight cannot be left empty!";
+			} else {
+                AlertBox.Text = "";
+                processData();
 			}
-			else 
-			{
-                bmr = 447.6 + (9.25 * weight) +(3.1 * height) -(4.3 * age);
-			}
+        }
 
-			double kcal_factor = 0.00;
+
+		public void processData() {
+
+            string gender = Gender.SelectedItem.ToString();
+            string exercise = Exercise.SelectedItem.ToString();
+            int height = int.Parse(Height.Text);
+            int weight = int.Parse(Weight.Text);
+            int age = int.Parse(Age.Text);
+            double bmr = 0.00;
+
+
+            if (gender == "MALE")
+            {
+                bmr = 88.4 + (13.4 * weight) + (4.8 * height) - (5.7 * age);
+            }
+            else
+            {
+                bmr = 447.6 + (9.25 * weight) + (3.1 * height) - (4.3 * age);
+            }
+
+            double kcal_factor = 0.00;
 
             switch (Exercise.SelectedIndex)
             {
@@ -62,24 +73,33 @@ namespace MuslceWizard
                     break;
             }
 
-			double protein_intake = 0.00;
+            double protein_intake = 0.00;
 
-			if (age < 3) {
-				protein_intake = 13.00;
-			} else if (age >= 4 && age <= 8) {
-				protein_intake = 19.00;
-			} else if (age >= 9 && age <= 13) {
-				protein_intake = 34.00;
-			} else if (age >= 14 && age <= 18) {
-				if (gender == "MALE")
-				{
-					protein_intake = 52.00;
-				}
-				else
-				{
-					protein_intake = 46.00;
-				}
-			} else if (age >= 19) {
+            if (age < 3)
+            {
+                protein_intake = 13.00;
+            }
+            else if (age >= 4 && age <= 8)
+            {
+                protein_intake = 19.00;
+            }
+            else if (age >= 9 && age <= 13)
+            {
+                protein_intake = 34.00;
+            }
+            else if (age >= 14 && age <= 18)
+            {
+                if (gender == "MALE")
+                {
+                    protein_intake = 52.00;
+                }
+                else
+                {
+                    protein_intake = 46.00;
+                }
+            }
+            else if (age >= 19)
+            {
                 if (gender == "MALE")
                 {
                     protein_intake = 56.00;
@@ -90,10 +110,9 @@ namespace MuslceWizard
                 }
             }
 
-			double kcal_intake = bmr * kcal_factor;
+            double kcal_intake = bmr * kcal_factor;
             Console.WriteLine(kcal_intake);
             SaveButton.Text = kcal_intake.ToString() + " Kcal & " + protein_intake.ToString() + " grams/day";
-
         }
 	}
 }

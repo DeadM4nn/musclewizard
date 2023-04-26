@@ -17,7 +17,7 @@
   </queries>
   <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:label="MuslceWizard.Android">
     <activity android:name="com.companyname.muslcewizard.SplashActivity" />
-    <activity android:name="com.companyname.muslcewizard.MainActivity" />
+    <!-- <activity android:name=".MainActivity"></activity> -->
     <activity android:name="crc64024b90c4a0670437.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="MuslceWizard" android:theme="@style/MainTheme" />
     <activity android:name="crc64024b90c4a0670437.SplashActivity" android:exported="true" android:label="SplashActivity" android:theme="@style/Splash">
       <intent-filter>
