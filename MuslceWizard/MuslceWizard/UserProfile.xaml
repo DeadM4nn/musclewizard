@@ -12,10 +12,12 @@
                 Margin="10, 20, 10 ,0"
                 TextColor="#FBFBFB" />
             <Entry 
-                TextColor="#FBFBFB" 
+                TextColor="#FBFBFB"
+                Keyboard="Numeric"
                 PlaceholderColor="#FBFBFB" 
                 Placeholder="height in centimeters" 
                 Margin="30, 0"
+                x:Name = "Height"
                 />
                 
 
@@ -24,17 +26,33 @@
                 Margin="10, 20, 10 ,0"
                 TextColor="#FBFBFB" />
             <Entry 
-                TextColor="#FBFBFB" 
+                TextColor="#FBFBFB"
+                Keyboard="Numeric"
                 PlaceholderColor="#FBFBFB" 
                 Placeholder="weight in kg" 
                 Margin="30, 0"
+                x:Name = "Weight"
                 />
 
+            <Label 
+                Text="Age" 
+                Margin="10, 20, 10 ,0"
+                TextColor="#FBFBFB" />
+            <Entry 
+                TextColor="#FBFBFB"
+                Keyboard="Numeric"
+                PlaceholderColor="#FBFBFB" 
+                Placeholder="Age in years" 
+                Margin="30, 0"
+                x:Name = "Age"
+                />            
+            
             <Label 
                 Text="Gender" 
                 Margin="10, 20, 10 ,0"
                 TextColor="#FBFBFB" />
             <Picker 
+                x:Name="Gender"
                 TitleColor="#FBFBFB" 
                 TextColor="#FBFBFB" 
                 Title="Select a gender"
@@ -50,6 +68,7 @@
                 Margin="10, 20, 10 ,0"
                 TextColor="#FBFBFB" />
             <Picker 
+                x:Name="Exercise"
                 TitleColor="#FBFBFB" 
                 TextColor="#FBFBFB" 
                 Title="Exercise Level"
@@ -68,7 +87,11 @@
                 BackgroundColor="#E74833"
                 TextColor="#FBFBFB" 
                 Margin="30, 50"
+                x:Name="SaveButton"
+                Clicked="buttonProcess"
                 />
+
+  
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
