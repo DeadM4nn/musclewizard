@@ -32,3 +32,4 @@ C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\ob
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\refint\MuslceWizard.dll
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.pdb
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\ref\MuslceWizard.dll
+C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\Intake.xaml.g.cs

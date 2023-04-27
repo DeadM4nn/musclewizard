@@ -99,11 +99,6 @@
                 x:Name="AlertBox"
                 HorizontalOptions="Center"
                 />
-            <Label 
-                TextColor="Red"
-                x:Name="Quotes"
-                HorizontalOptions="Center"
-                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

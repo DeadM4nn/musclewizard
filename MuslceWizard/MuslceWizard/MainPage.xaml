@@ -69,6 +69,7 @@
         Margin="30, 0"
                 >
         </Button>
+        <Label x:Name="Debug" />
     </StackLayout>
 
 </ContentPage>

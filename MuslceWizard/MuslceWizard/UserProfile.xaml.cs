@@ -20,10 +20,23 @@ namespace MuslceWizard
 			InitializeComponent();
 			Gender.SelectedIndex = 0;
 			Exercise.SelectedIndex = 0;
-            show_quote();
+            Init_Latest();
         }
 
-		public void buttonProcess(object sender, EventArgs e)
+        async public void Init_Latest()
+        {
+            Biodata latest_data = await App.Database.GetLatestBiodata();
+            if (latest_data != null)
+            {
+                Gender.SelectedItem = latest_data.Gender;
+                Exercise.SelectedItem = latest_data.Exercise;
+                Height.Text = latest_data.Height.ToString();
+                Weight.Text= latest_data.Weight.ToString();
+                Age.Text = latest_data.Age.ToString();
+            }
+        }
+
+        public void buttonProcess(object sender, EventArgs e)
 		{
 
             if (string.IsNullOrEmpty(Height.Text) || string.IsNullOrEmpty(Weight.Text) || string.IsNullOrEmpty(Age.Text)) {
@@ -34,30 +47,7 @@ namespace MuslceWizard
 			}
         }
 
-        public void show_quote() {
-            // Define an array of inspirational quotes
-            string[] quotes = new string[]
-            {
-                "The best way to predict the future is to create it. - Peter Drucker",
-                "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle. - Christian D. Larson",
-                "It does not matter how slowly you go as long as you do not stop. - Confucius",
-                "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. - Steve Jobs",
-                "You are never too old to set another goal or to dream a new dream. - C.S. Lewis",
-            };
-
-            Console.WriteLine(quotes);
-
-            // Create a new random number generator
-            Random rand = new Random();
-
-            // Select a random quote from the array
-            string randomQuote = quotes[rand.Next(quotes.Length)];
-
-            Quotes.Text = randomQuote;
-            Console.WriteLine(randomQuote);
-        }
-
-		public void processData() {
+		public async void processData() {
 
             string gender = Gender.SelectedItem.ToString();
             string exercise = Exercise.SelectedItem.ToString();
@@ -133,11 +123,23 @@ namespace MuslceWizard
                     protein_intake = 46.00;
                 }
             }
-
             double kcal_intake = bmr * kcal_factor;
             Console.WriteLine(kcal_intake);
 
-            SaveButton.Text = kcal_intake.ToString() + " Kcal & " + protein_intake.ToString() + " grams/day";
+
+            Biodata new_bio = new Biodata();
+            new_bio.Age = age;
+            new_bio.Gender = gender;
+            new_bio.Height = height;
+            new_bio.Exercise = exercise;
+            new_bio.Date = DateTime.Now.Date.ToString("dd-MM-yyyy");
+            new_bio.Bmr = bmr;
+            new_bio.Protein = protein_intake;
+            new_bio.Calorie = kcal_intake;
+
+            await App.Database.SaveBiodata(new_bio);
+
+            await Navigation.PushAsync(new Intake());
         }
 	}
 }

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MuslceWizard.Intake"
+             Title="Intake Information"
+             BackgroundColor="#27385B"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="dinner.png" Margin="0,50" HeightRequest="150"/>
+            <Grid HorizontalOptions="Center" Margin="50,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" TextColor="#E74833" FontAttributes="Bold" FontSize="Medium" Text="Daily Protein Intake" Margin="0,50"/>
+                <Label Grid.Row="0" Grid.Column="1" TextColor="#E74833" FontAttributes="Bold" FontSize="Medium" x:Name="Protein" Margin="0,50"/>
+                <Label Grid.Row="1" Grid.Column="0" TextColor="#E74833" FontAttributes="Bold" FontSize="Medium" Text="Daily Protein Intake" />
+                <Label Grid.Row="1" Grid.Column="1" TextColor="#E74833" FontAttributes="Bold" FontSize="Medium" x:Name="Calorie" />
+            </Grid>
+            <Button 
+                Text="User Profile"         
+                BackgroundColor="#E74833"
+                TextColor="#FBFBFB" 
+                Margin="30, 50, 30, 0"
+                Clicked="goUserProfile"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
