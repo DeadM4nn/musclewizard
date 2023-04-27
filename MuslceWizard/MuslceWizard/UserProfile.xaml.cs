@@ -20,11 +20,13 @@ namespace MuslceWizard
 			InitializeComponent();
 			Gender.SelectedIndex = 0;
 			Exercise.SelectedIndex = 0;
-		}
+            show_quote();
+        }
 
 		public void buttonProcess(object sender, EventArgs e)
 		{
-			if (string.IsNullOrEmpty(Height.Text) || string.IsNullOrEmpty(Weight.Text) || string.IsNullOrEmpty(Age.Text)) {
+
+            if (string.IsNullOrEmpty(Height.Text) || string.IsNullOrEmpty(Weight.Text) || string.IsNullOrEmpty(Age.Text)) {
                 AlertBox.Text = "Age/Height/Weight cannot be left empty!";
 			} else {
                 AlertBox.Text = "";
@@ -32,6 +34,28 @@ namespace MuslceWizard
 			}
         }
 
+        public void show_quote() {
+            // Define an array of inspirational quotes
+            string[] quotes = new string[]
+            {
+                "The best way to predict the future is to create it. - Peter Drucker",
+                "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle. - Christian D. Larson",
+                "It does not matter how slowly you go as long as you do not stop. - Confucius",
+                "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. - Steve Jobs",
+                "You are never too old to set another goal or to dream a new dream. - C.S. Lewis",
+            };
+
+            Console.WriteLine(quotes);
+
+            // Create a new random number generator
+            Random rand = new Random();
+
+            // Select a random quote from the array
+            string randomQuote = quotes[rand.Next(quotes.Length)];
+
+            Quotes.Text = randomQuote;
+            Console.WriteLine(randomQuote);
+        }
 
 		public void processData() {
 
@@ -112,6 +136,7 @@ namespace MuslceWizard
 
             double kcal_intake = bmr * kcal_factor;
             Console.WriteLine(kcal_intake);
+
             SaveButton.Text = kcal_intake.ToString() + " Kcal & " + protein_intake.ToString() + " grams/day";
         }
 	}

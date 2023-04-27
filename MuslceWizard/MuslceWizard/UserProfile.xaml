@@ -5,6 +5,7 @@
     x:Class="MuslceWizard.UserProfile"
     BackgroundColor="#27385B"
     Title="User Profile"
+    NavigationPage.HasNavigationBar="False"
     >
 
     <ContentPage.Content>
@@ -20,6 +21,7 @@
                 Placeholder="height in centimeters" 
                 Margin="30, 0"
                 x:Name = "Height"
+
                 />
                 
 
@@ -97,7 +99,11 @@
                 x:Name="AlertBox"
                 HorizontalOptions="Center"
                 />
-
+            <Label 
+                TextColor="Red"
+                x:Name="Quotes"
+                HorizontalOptions="Center"
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

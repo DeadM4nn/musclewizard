@@ -12,9 +12,9 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:label="MuslceWizard.Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:name=".SplashActivity"></activity>
-    <!-- <activity android:name=".MainActivity"></activity> -->
+    <activity android:name=".MainActivity"></activity>
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="MuslceWizard" android:theme="@style/MainTheme" android:name="crc64024b90c4a0670437.MainActivity" />
-    <activity android:label="SplashActivity" android:theme="@style/Splash" android:name="crc64024b90c4a0670437.SplashActivity" android:exported="true">
+    <activity android:label="Muscle Wizard" android:theme="@style/Splash" android:name="crc64024b90c4a0670437.SplashActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

@@ -14,20 +14,21 @@ C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstanda
 C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.pdb
 C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\ref\MuslceWizard.dll
 C:\Mobile App Project\MuslceWizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuscleBack.xaml.g.cs
+C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.deps.json
+C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.dll
+C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.pdb
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.csproj.AssemblyReference.cache
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.GeneratedMSBuildEditorConfig.editorconfig
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuscleBack.xaml.g.cs
+C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\TabbedPage.xaml.g.cs
+C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\UserProfile.xaml.g.cs
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.AssemblyInfoInputs.cache
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.AssemblyInfo.cs
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.csproj.CoreCompileInputs.cache
+C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\XamlC.stamp
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.dll
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\refint\MuslceWizard.dll
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\MuslceWizard.pdb
-C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.deps.json
-C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.dll
-C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\bin\Debug\netstandard2.0\MuslceWizard.pdb
-C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\XamlC.stamp
 C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\ref\MuslceWizard.dll
-C:\MobileAppProject\MuscleWizardGithub\musclewizard\MuslceWizard\MuslceWizard\obj\Debug\netstandard2.0\UserProfile.xaml.g.cs

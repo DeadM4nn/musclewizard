@@ -13,19 +13,22 @@ using Android.Content.PM;
 
 
 
+
 namespace MuslceWizard.Droid
 {
-    [Activity(Label = "SplashActivity", Theme = "@style/Splash", MainLauncher = true)]
+    [Activity(Label = "Muscle Wizard", Theme = "@style/Splash", MainLauncher = true)]
     public class SplashActivity : Activity
     {
         public SplashActivity()
         {
-
         }
         protected override void OnCreate(Bundle savedInstanceState)
         {
+
             base.OnCreate(savedInstanceState);
+            //System.Threading.Thread.Sleep(3000);
             StartActivity(typeof(MainActivity));
+
             Finish();
         }
 

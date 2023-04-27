@@ -16,7 +16,7 @@ namespace MuslceWizard
         }
         private void goBackside(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MuscleBack());
+            Navigation.PushAsync(new TabbedPage1());
         }
         private void goUserProfile(object sender, EventArgs e) {
             Navigation.PushAsync(new UserProfile());
