@@ -15,7 +15,9 @@ namespace MuslceWizard
             get {
                 if (database_connection == null) {
                     database_connection = new Database(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "database.db3"));
-                } 
+                }
+
+
                 return database_connection;
 
             }
@@ -28,9 +30,10 @@ namespace MuslceWizard
             Console.WriteLine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "database.db3"));
             InitializeComponent();
 
+
             MainPage = new NavigationPage(new MainPage());
             //MuscleBackPage = new NavigationPage(new MuscleBack());
-            Database.InitExercise();
+            Database.ClearExerciseAsync();
         }
 
         protected override void OnStart()
@@ -40,6 +43,9 @@ namespace MuslceWizard
         protected override void OnSleep()
         {
         }
+
+
+
 
         protected override void OnResume()
         {

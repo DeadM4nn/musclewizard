@@ -35,5 +35,13 @@ namespace MuslceWizard
         private void goUserProfile(object sender, EventArgs e) {
             Navigation.PushAsync(new UserProfile());
         }
+
+        private void GoToList(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            Navigation.PushAsync(new ExerciseList(button.Text));
+        }
+
+
     }
 }

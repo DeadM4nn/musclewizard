@@ -14,6 +14,7 @@
         HorizontalOptions="Start"
         BackgroundColor="#E74833"
         TextColor="#FBFBFB"
+        Clicked="GoToList"
                 >
         </Button>
 
@@ -24,6 +25,7 @@
         HorizontalOptions="Start"
         BackgroundColor="#E74833"
         TextColor="#FBFBFB"
+                Clicked="GoToList"
                 >
         </Button>
 
@@ -34,6 +36,7 @@
         HorizontalOptions="Start"
         BackgroundColor="#E74833"
         TextColor="#FBFBFB"
+                Clicked="GoToList"
                 >
         </Button>
 
@@ -44,6 +47,7 @@
         HorizontalOptions="Start"
         BackgroundColor="#E74833"
         TextColor="#FBFBFB"
+                Clicked="GoToList"
                 >
         </Button>
 
@@ -52,6 +56,7 @@
         Clicked="goBackside"
         HeightRequest="91"
         Margin="30, 0"
+            
                 >
         </Button>
         
@@ -61,14 +66,15 @@
         Clicked="goUserProfile"
         Margin="30, 0"
                 >
-        </Button>        
-        
+        </Button>
+
         <Button
         Text="Calorie and Protein Intake"
         HeightRequest="91"
         Margin="30, 0"
                 >
         </Button>
+
         <Label x:Name="Debug" />
     </StackLayout>
 

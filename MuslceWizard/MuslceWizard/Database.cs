@@ -16,7 +16,6 @@ namespace MuslceWizard
             _database.CreateTableAsync<Biodata>();
             _database.CreateTableAsync<Exercise>();
             Console.WriteLine("Database Created");
-            InitExercise();
         }
 
         public Task<List<Biodata>> GetBiodataAsync() {
@@ -37,6 +36,24 @@ namespace MuslceWizard
             var biodataList = await _database.Table<Biodata>().OrderByDescending(x => x.Id).ToListAsync();
             return biodataList.FirstOrDefault();
             // returns the latest
+        }
+
+        async public Task<List<Exercise>> GetExerciseList()
+        {
+            return await _database.Table<Exercise>().ToListAsync();
+        }
+
+
+
+        public async void ClearExerciseAsync()
+        {
+            await _database.Table<Exercise>().Where(e => true).DeleteAsync();
+            InitExercise();
+        }
+
+        async public Task<List<Exercise>> GetExerciseList(string exerciseType)
+        {
+            return await _database.Table<Exercise>().Where(e => e.Type == exerciseType).ToListAsync();
         }
 
         async public void InitExercise() {
@@ -83,14 +100,14 @@ namespace MuslceWizard
                 {"40","Good Mornings","The good morning exercise works the hamstrings, back, glutes, and abs. Using a weighted barbell increases the load on these muscles,1 though beginners should start with a light weight (or no weight at all). Add the barbell good morning to your lower body and core strength training routine.","https://www.verywellfit.com/how-to-do-the-good-morning-exercise-with-barbell-3498255","Hamstrings"},
             };
 
-            for (int i = 0; i < exercises.Length; i++) {
+            for (int i = 0; i < 40; i++) {
                 Exercise curr_data = new Exercise();
                 curr_data.Id = int.Parse(exercises[i,0]);
                 curr_data.Name = exercises[i,1];
                 curr_data.Description = exercises[i,2];
                 curr_data.Source = exercises[i,3];
                 curr_data.Type = exercises[i,4];
-                SaveExercise(curr_data);
+                await SaveExercise(curr_data);
             }
 
         }
